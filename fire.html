@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+
+    <!-- Firepad -->
+    <link rel="stylesheet" href="https://firepad.io/releases/v1.5.9/firepad.css" />
+      <script src="https://firepad.io/releases/v1.5.9/firepad.min.js"></script>
+
+
+    <!-- Loader.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.20.0/min/vs/loader.min.js"></script>
+
+    <style>
+        html { height: 100%; }
+        body { margin: 0; height: 100%; position: relative; }
+
+        #firepad {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body onload="init()">
+<h1>Firebase Realtime Database</h1>
+<p>
+  This is an example of the monaco editor working using the firebase Realtime Database.
+  Here is the <a href="https://console.firebase.google.com/project/fyp-monaco/overview">firebase console</a>
+</p>
+<div id="firepad"></div>
+
+<script src="./fire.js"></script>
+</body>
+</html>
