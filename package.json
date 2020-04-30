@@ -18,7 +18,7 @@
     "@convergencelabs/monaco-collab-ext": "0.2.0",
     "bootstrap": "4.3.1",
     "vue": "2.6.10",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "rxjs": "6.4.0",
     "fs-extra": "7.0.1",
     "sass": "1.23.0-module.beta.1",
